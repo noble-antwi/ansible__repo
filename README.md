@@ -1,4 +1,4 @@
-# ansible__repo
+# ANSIBLE REPO
 
 This is my awesome Ansible Repo
 ---
@@ -41,9 +41,10 @@ sudo nano /etc/hosts
 ```
 The hostname and host file is then changed from **osboxes** to **controller** for the VM serving as the controller and the second one changed to **target**. The third to **target1** and the forth to **target2**
 
-## Installling Ansible on the Controller
+## Installing Ansible on the Controller
 
 ```
+sudo yum update
 sudo yum install ansible
 ```
 ![ansible_installation](asset\ansible_installation.PNG)
